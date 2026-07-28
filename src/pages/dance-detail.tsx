@@ -130,12 +130,6 @@ function DanceDetailPage() {
           </div>
 
           <div className="space-y-6">
-            {dance.difficulty && (
-              <div>
-                <p className="text-sm font-semibold text-muted-foreground mb-2">DIFFICULTY</p>
-                <p className="text-lg font-semibold capitalize">{dance.difficulty}</p>
-              </div>
-            )}
 
             {dance.duration_minutes && (
               <div>

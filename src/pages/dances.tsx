@@ -61,7 +61,6 @@ function DancesPage() {
                 </div>
                 <h3 className="font-semibold text-lg mb-2 group-hover:text-primary transition-colors">{dance.name}</h3>
                 <p className="text-sm text-muted-foreground">{dance.origin}</p>
-                <div className="mt-3 text-xs font-semibold text-primary">{dance.difficulty}</div>
               </Link>
             ))}
           </div>

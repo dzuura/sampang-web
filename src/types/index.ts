@@ -4,7 +4,6 @@
 export type EventCategory = 'Festival' | 'Workshop' | 'Competition' | 'Performance' | 'Training';
 export type EventStatus = 'draft' | 'published' | 'archived';
 export type UserRole = 'admin' | 'editor' | 'viewer';
-export type DanceDifficulty = 'beginner' | 'intermediate' | 'advanced';
 
 // ============ EVENT ============
 export interface Event {
@@ -44,7 +43,6 @@ export interface Dance {
     history: string;
     philosophy: string;
     costume_description: string;
-    difficulty: DanceDifficulty;
     duration_minutes: number;
     number_of_dancers: number;
     thumbnail_url: string;
